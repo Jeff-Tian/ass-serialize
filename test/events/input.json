@@ -1,0 +1,2012 @@
+{
+  "events": {
+    "format": [
+      "Layer",
+      "Start",
+      "End",
+      "Style",
+      "Name",
+      "MarginL",
+      "MarginR",
+      "MarginV",
+      "Effect",
+      "Text"
+    ],
+    "comment": [
+      {
+        "Layer": 0,
+        "Start": 0,
+        "End": 5,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "This line is a comment and should not display on rendered output. This file is intended to be rendered on a 640x480 video, preferably a single solid colour, or maybe a checkerboard pattern.",
+          "combined": "This line is a comment and should not display on rendered output. This file is intended to be rendered on a 640x480 video, preferably a single solid colour, or maybe a checkerboard pattern.",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "This line is a comment and should not display on rendered output. This file is intended to be rendered on a 640x480 video, preferably a single solid colour, or maybe a checkerboard pattern.",
+              "drawing": []
+            }
+          ]
+        }
+      }
+    ],
+    "dialogue": [
+      {
+        "Layer": 0,
+        "Start": 0,
+        "End": 5,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "This is a test of the ASS format and some basic features in it.",
+          "combined": "This is a test of the ASS format and some basic features in it.",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "This is a test of the ASS format and some basic features in it.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 5,
+        "End": 7,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "This and the previous line should both show at the bottom of the video in 20 pixel high white Arial with a 2 pixel black outline and 2 pixel offset shadow. This line is long so it should automatically be broken into several lines that are approximately even length, with upper lines being longer.",
+          "combined": "This and the previous line should both show at the bottom of the video in 20 pixel high white Arial with a 2 pixel black outline and 2 pixel offset shadow. This line is long so it should automatically be broken into several lines that are approximately even length, with upper lines being longer.",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "This and the previous line should both show at the bottom of the video in 20 pixel high white Arial with a 2 pixel black outline and 2 pixel offset shadow. This line is long so it should automatically be broken into several lines that are approximately even length, with upper lines being longer.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 7,
+        "End": 9,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "Now going to test conflict resolution. {By the way, this is a common abuse, \"inline-comments\" in override tag groups. They should not be rendered and not generate errors, just be ignored.}",
+          "combined": "Now going to test conflict resolution. ",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "Now going to test conflict resolution. ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {}
+              ],
+              "text": "",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 7.5,
+        "End": 9,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "This line should be above the previous.",
+          "combined": "This line should be above the previous.",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "This line should be above the previous.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 9,
+        "End": 11,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an1}This line should be lower-left aligned using the \\an1 override.",
+          "combined": "This line should be lower-left aligned using the \\an1 override.",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 1
+                }
+              ],
+              "text": "This line should be lower-left aligned using the \\an1 override.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 11,
+        "End": 13,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an9}Upper right",
+          "combined": "Upper right",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 9
+                }
+              ],
+              "text": "Upper right",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 12,
+        "End": 14,
+        "Style": "Alt",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "This one should be below the \"Upper right\" line and be centered on screen. It should also be in 40 pixel high Times New Roman.",
+          "combined": "This one should be below the \"Upper right\" line and be centered on screen. It should also be in 40 pixel high Times New Roman.",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "This one should be below the \"Upper right\" line and be centered on screen. It should also be in 40 pixel high Times New Roman.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 14,
+        "End": 16,
+        "Style": "Alt",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\fs10}This should also be a toptitle in Times New Roman, but much smaller. Using an override tag to change size.",
+          "combined": "This should also be a toptitle in Times New Roman, but much smaller. Using an override tag to change size.",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "fs": "10"
+                }
+              ],
+              "text": "This should also be a toptitle in Times New Roman, but much smaller. Using an override tag to change size.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 16,
+        "End": 18,
+        "Style": "Alt",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\a5}Top-left using the legacy \\a5 tag",
+          "combined": "Top-left using the legacy \\a5 tag",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "a": 5
+                }
+              ],
+              "text": "Top-left using the legacy \\a5 tag",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 18,
+        "End": 20,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5}This line is centered on screen.\\NAt the bottom of the screen should be two lines in different layers, they are rendered on top of each other because conflict resolution only considers lines in the same layer.",
+          "combined": "This line is centered on screen.\\NAt the bottom of the screen should be two lines in different layers, they are rendered on top of each other because conflict resolution only considers lines in the same layer.",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                }
+              ],
+              "text": "This line is centered on screen.\\NAt the bottom of the screen should be two lines in different layers, they are rendered on top of each other because conflict resolution only considers lines in the same layer.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 18,
+        "End": 20,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "This is in layer 0",
+          "combined": "This is in layer 0",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "This is in layer 0",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 1,
+        "Start": 18,
+        "End": 20,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "And this line is in layer 1",
+          "combined": "And this line is in layer 1",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "And this line is in layer 1",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 20,
+        "End": 22,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "Another line in layer 0",
+          "combined": "Another line in layer 0",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "Another line in layer 0",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 1,
+        "Start": 20,
+        "End": 22,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 50,
+        "MarginR": 0,
+        "MarginV": 20,
+        "Effect": null,
+        "Text": {
+          "raw": "And this line is in layer 1, but has changed its margins so it isn't exactly centered, and it's raised above the other line.",
+          "combined": "And this line is in layer 1, but has changed its margins so it isn't exactly centered, and it's raised above the other line.",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "And this line is in layer 1, but has changed its margins so it isn't exactly centered, and it's raised above the other line.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 22,
+        "End": 24,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "Switching {\\fnTimes New Roman}font inline, {\\r}and resetting styles",
+          "combined": "Switching font inline, and resetting styles",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "Switching ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "fn": "Times New Roman"
+                }
+              ],
+              "text": "font inline, ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "r": ""
+                }
+              ],
+              "text": "and resetting styles",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 24,
+        "End": 26,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "Also {\\rAlt}switching to a different style {\\r}inline",
+          "combined": "Also switching to a different style inline",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "Also ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "r": "Alt"
+                }
+              ],
+              "text": "switching to a different style ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "r": ""
+                }
+              ],
+              "text": "inline",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 26,
+        "End": 28,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\pos(258,131)}Positioning... this line should be in an odd place",
+          "combined": "Positioning... this line should be in an odd place",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {
+                  "pos": [
+                    258,
+                    131
+                  ]
+                }
+              ],
+              "text": "Positioning... this line should be in an odd place",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 26,
+        "End": 28,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\pos(222,338)\\frz29.559}So should this one, and be rotated",
+          "combined": "So should this one, and be rotated",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {
+                  "pos": [
+                    222,
+                    338
+                  ]
+                },
+                {
+                  "frz": 29.559
+                }
+              ],
+              "text": "So should this one, and be rotated",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 28,
+        "End": 30,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\pos(371,314)\\frz338.403\\frx42\\fry30\\org(187,165)}Some more rotation tricks, this time in 3D and with a different origin",
+          "combined": "Some more rotation tricks, this time in 3D and with a different origin",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "pos": [
+                    371,
+                    314
+                  ]
+                },
+                {
+                  "frz": 338.403
+                },
+                {
+                  "frx": 42
+                },
+                {
+                  "fry": 30
+                },
+                {
+                  "org": [
+                    187,
+                    165
+                  ]
+                }
+              ],
+              "text": "Some more rotation tricks, this time in 3D and with a different origin",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 30,
+        "End": 32,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\t(\\frz360)}This line is animated and rotates 360 degrees over its duration",
+          "combined": "This line is animated and rotates 360 degrees over its duration",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {
+                  "t": {
+                    "t1": 0,
+                    "t2": 0,
+                    "accel": 1,
+                    "tags": [
+                      {
+                        "frz": 360
+                      }
+                    ]
+                  }
+                }
+              ],
+              "text": "This line is animated and rotates 360 degrees over its duration",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 32,
+        "End": 34,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\move(182,157,414,311)}This line moves",
+          "combined": "This line moves",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {
+                  "move": [
+                    182,
+                    157,
+                    414,
+                    311
+                  ]
+                }
+              ],
+              "text": "This line moves",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 34,
+        "End": 36,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\clip(126,192,487,241)}This line is only partially visible\\Nso if you can see this, \\clip is handled incorrectly",
+          "combined": "This line is only partially visible\\Nso if you can see this, \\clip is handled incorrectly",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {
+                  "clip": {
+                    "inverse": false,
+                    "scale": 1,
+                    "drawing": null,
+                    "dots": [
+                      126,
+                      192,
+                      487,
+                      241
+                    ]
+                  }
+                }
+              ],
+              "text": "This line is only partially visible\\Nso if you can see this, \\clip is handled incorrectly",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 36,
+        "End": 38,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\clip(m 178 212 l 163 249 212 302 257 232 309 249 366 241 392 285 473 267 487 210 421 241 353 219 207 258)}And this line has a funnily-shaped clip area",
+          "combined": "And this line has a funnily-shaped clip area",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {
+                  "clip": {
+                    "inverse": false,
+                    "scale": 1,
+                    "drawing": [
+                      [
+                        "m",
+                        "178",
+                        "212"
+                      ],
+                      [
+                        "l",
+                        "163",
+                        "249",
+                        "212",
+                        "302",
+                        "257",
+                        "232",
+                        "309",
+                        "249",
+                        "366",
+                        "241",
+                        "392",
+                        "285",
+                        "473",
+                        "267",
+                        "487",
+                        "210",
+                        "421",
+                        "241",
+                        "353",
+                        "219",
+                        "207",
+                        "258"
+                      ]
+                    ],
+                    "dots": null
+                  }
+                }
+              ],
+              "text": "And this line has a funnily-shaped clip area",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 38,
+        "End": 40,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\pos(321,193)}Here should be a pretty feather with a thin border and no shadow:",
+          "combined": "Here should be a pretty feather with a thin border and no shadow:",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {
+                  "pos": [
+                    321,
+                    193
+                  ]
+                }
+              ],
+              "text": "Here should be a pretty feather with a thin border and no shadow:",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 38,
+        "End": 40,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\bord1\\shad0\\p1\\fscx300\\fscy300\\pos(316,312)}m 0 0 b 33 -3 48 -7 61 -19 b 53 -7 31 -1 1 2 m 9 0 b 9 -5 10 -6 14 -12 b 9 -5 10 -3 10 0 m 10 -1 b 10 -5 11 -8 16 -12 b 17 -12 18 -13 22 -14 b 18 -10 16 -6 15 -1 b 17 -6 19 -10 23 -14 l 26 -15 b 22 -11 20 -6 19 -2 b 24 -11 27 -14 28 -15 b 31 -16 35 -16 39 -16 b 37 -14 36 -10 36 -5 b 36 -9 38 -14 39 -16 b 41 -16 43 -16 45 -15 b 44 -13 43 -10 43 -7 l 29 -3 m 43 -7 b 44 -11 45 -13 47 -15 b 46 -13 46 -11 46 -9 b 46 -11 47 -13 49 -15 b 51 -15 48 -13 48 -9 b 49 -11 49 -14 52 -16 b 55 -16 53 -17 51 -11 l 48 -8 m 54 -13 b 53 -14 54 -15 54 -16 b 54 -15 54 -14 55 -13 b 57 -13 60 -12 62 -14 b 61 -12 55 -12 53 -12 b 55 -11 56 -10 61 -10 b 61 -7 53 -9 52 -11 b 53 -8 55 -7 58 -6 b 57 -5 56 -4 54 -3 b 49 -5 48 -6 47 -9 b 47 -6 50 -4 53 -2 b 49 -3 47 -6 45 -8 b 46 -6 49 -3 52 -1 b 46 2 45 3 43 3 b 40 0 39 -3 40 -6 b 39 -3 39 1 42 3 b 40 6 36 1 34 -4 b 35 -1 36 2 38 5 b 32 7 26 9 22 8 b 19 5 17 2 16 -1 b 17 3 19 5 20 7 b 17 4 16 2 15 0 b 15 2 17 5 19 8 b 15 9 13 3 12 0 l 25 -2 l 42 -7 m 12 0 b 13 3 13 7 17 9 b 12 7 10 1 10 0",
+          "combined": "",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {
+                  "bord": 1
+                },
+                {
+                  "shad": 0
+                },
+                {
+                  "p": 1
+                },
+                {
+                  "fscx": 300
+                },
+                {
+                  "fscy": 300
+                },
+                {
+                  "pos": [
+                    316,
+                    312
+                  ]
+                }
+              ],
+              "text": "",
+              "drawing": [
+                [
+                  "m",
+                  "0",
+                  "0"
+                ],
+                [
+                  "b",
+                  "33",
+                  "-3",
+                  "48",
+                  "-7",
+                  "61",
+                  "-19"
+                ],
+                [
+                  "b",
+                  "53",
+                  "-7",
+                  "31",
+                  "-1",
+                  "1",
+                  "2"
+                ],
+                [
+                  "m",
+                  "9",
+                  "0"
+                ],
+                [
+                  "b",
+                  "9",
+                  "-5",
+                  "10",
+                  "-6",
+                  "14",
+                  "-12"
+                ],
+                [
+                  "b",
+                  "9",
+                  "-5",
+                  "10",
+                  "-3",
+                  "10",
+                  "0"
+                ],
+                [
+                  "m",
+                  "10",
+                  "-1"
+                ],
+                [
+                  "b",
+                  "10",
+                  "-5",
+                  "11",
+                  "-8",
+                  "16",
+                  "-12"
+                ],
+                [
+                  "b",
+                  "17",
+                  "-12",
+                  "18",
+                  "-13",
+                  "22",
+                  "-14"
+                ],
+                [
+                  "b",
+                  "18",
+                  "-10",
+                  "16",
+                  "-6",
+                  "15",
+                  "-1"
+                ],
+                [
+                  "b",
+                  "17",
+                  "-6",
+                  "19",
+                  "-10",
+                  "23",
+                  "-14"
+                ],
+                [
+                  "l",
+                  "26",
+                  "-15"
+                ],
+                [
+                  "b",
+                  "22",
+                  "-11",
+                  "20",
+                  "-6",
+                  "19",
+                  "-2"
+                ],
+                [
+                  "b",
+                  "24",
+                  "-11",
+                  "27",
+                  "-14",
+                  "28",
+                  "-15"
+                ],
+                [
+                  "b",
+                  "31",
+                  "-16",
+                  "35",
+                  "-16",
+                  "39",
+                  "-16"
+                ],
+                [
+                  "b",
+                  "37",
+                  "-14",
+                  "36",
+                  "-10",
+                  "36",
+                  "-5"
+                ],
+                [
+                  "b",
+                  "36",
+                  "-9",
+                  "38",
+                  "-14",
+                  "39",
+                  "-16"
+                ],
+                [
+                  "b",
+                  "41",
+                  "-16",
+                  "43",
+                  "-16",
+                  "45",
+                  "-15"
+                ],
+                [
+                  "b",
+                  "44",
+                  "-13",
+                  "43",
+                  "-10",
+                  "43",
+                  "-7"
+                ],
+                [
+                  "l",
+                  "29",
+                  "-3"
+                ],
+                [
+                  "m",
+                  "43",
+                  "-7"
+                ],
+                [
+                  "b",
+                  "44",
+                  "-11",
+                  "45",
+                  "-13",
+                  "47",
+                  "-15"
+                ],
+                [
+                  "b",
+                  "46",
+                  "-13",
+                  "46",
+                  "-11",
+                  "46",
+                  "-9"
+                ],
+                [
+                  "b",
+                  "46",
+                  "-11",
+                  "47",
+                  "-13",
+                  "49",
+                  "-15"
+                ],
+                [
+                  "b",
+                  "51",
+                  "-15",
+                  "48",
+                  "-13",
+                  "48",
+                  "-9"
+                ],
+                [
+                  "b",
+                  "49",
+                  "-11",
+                  "49",
+                  "-14",
+                  "52",
+                  "-16"
+                ],
+                [
+                  "b",
+                  "55",
+                  "-16",
+                  "53",
+                  "-17",
+                  "51",
+                  "-11"
+                ],
+                [
+                  "l",
+                  "48",
+                  "-8"
+                ],
+                [
+                  "m",
+                  "54",
+                  "-13"
+                ],
+                [
+                  "b",
+                  "53",
+                  "-14",
+                  "54",
+                  "-15",
+                  "54",
+                  "-16"
+                ],
+                [
+                  "b",
+                  "54",
+                  "-15",
+                  "54",
+                  "-14",
+                  "55",
+                  "-13"
+                ],
+                [
+                  "b",
+                  "57",
+                  "-13",
+                  "60",
+                  "-12",
+                  "62",
+                  "-14"
+                ],
+                [
+                  "b",
+                  "61",
+                  "-12",
+                  "55",
+                  "-12",
+                  "53",
+                  "-12"
+                ],
+                [
+                  "b",
+                  "55",
+                  "-11",
+                  "56",
+                  "-10",
+                  "61",
+                  "-10"
+                ],
+                [
+                  "b",
+                  "61",
+                  "-7",
+                  "53",
+                  "-9",
+                  "52",
+                  "-11"
+                ],
+                [
+                  "b",
+                  "53",
+                  "-8",
+                  "55",
+                  "-7",
+                  "58",
+                  "-6"
+                ],
+                [
+                  "b",
+                  "57",
+                  "-5",
+                  "56",
+                  "-4",
+                  "54",
+                  "-3"
+                ],
+                [
+                  "b",
+                  "49",
+                  "-5",
+                  "48",
+                  "-6",
+                  "47",
+                  "-9"
+                ],
+                [
+                  "b",
+                  "47",
+                  "-6",
+                  "50",
+                  "-4",
+                  "53",
+                  "-2"
+                ],
+                [
+                  "b",
+                  "49",
+                  "-3",
+                  "47",
+                  "-6",
+                  "45",
+                  "-8"
+                ],
+                [
+                  "b",
+                  "46",
+                  "-6",
+                  "49",
+                  "-3",
+                  "52",
+                  "-1"
+                ],
+                [
+                  "b",
+                  "46",
+                  "2",
+                  "45",
+                  "3",
+                  "43",
+                  "3"
+                ],
+                [
+                  "b",
+                  "40",
+                  "0",
+                  "39",
+                  "-3",
+                  "40",
+                  "-6"
+                ],
+                [
+                  "b",
+                  "39",
+                  "-3",
+                  "39",
+                  "1",
+                  "42",
+                  "3"
+                ],
+                [
+                  "b",
+                  "40",
+                  "6",
+                  "36",
+                  "1",
+                  "34",
+                  "-4"
+                ],
+                [
+                  "b",
+                  "35",
+                  "-1",
+                  "36",
+                  "2",
+                  "38",
+                  "5"
+                ],
+                [
+                  "b",
+                  "32",
+                  "7",
+                  "26",
+                  "9",
+                  "22",
+                  "8"
+                ],
+                [
+                  "b",
+                  "19",
+                  "5",
+                  "17",
+                  "2",
+                  "16",
+                  "-1"
+                ],
+                [
+                  "b",
+                  "17",
+                  "3",
+                  "19",
+                  "5",
+                  "20",
+                  "7"
+                ],
+                [
+                  "b",
+                  "17",
+                  "4",
+                  "16",
+                  "2",
+                  "15",
+                  "0"
+                ],
+                [
+                  "b",
+                  "15",
+                  "2",
+                  "17",
+                  "5",
+                  "19",
+                  "8"
+                ],
+                [
+                  "b",
+                  "15",
+                  "9",
+                  "13",
+                  "3",
+                  "12",
+                  "0"
+                ],
+                [
+                  "l",
+                  "25",
+                  "-2"
+                ],
+                [
+                  "l",
+                  "42",
+                  "-7"
+                ],
+                [
+                  "m",
+                  "12",
+                  "0"
+                ],
+                [
+                  "b",
+                  "13",
+                  "3",
+                  "13",
+                  "7",
+                  "17",
+                  "9"
+                ],
+                [
+                  "b",
+                  "12",
+                  "7",
+                  "10",
+                  "1",
+                  "10",
+                  "0"
+                ]
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 40,
+        "End": 42,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "Some other basic font style tests:\\NNormal, {\\b1}Boldface{\\r}, {\\i1}Italics{\\r}, {\\u1}Underline{\\r}, {\\s1}Strikethrough",
+          "combined": "Some other basic font style tests:\\NNormal, Boldface, Italics, Underline, Strikethrough",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "Some other basic font style tests:\\NNormal, ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "b": 1
+                }
+              ],
+              "text": "Boldface",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "r": ""
+                }
+              ],
+              "text": ", ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "i": 1
+                }
+              ],
+              "text": "Italics",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "r": ""
+                }
+              ],
+              "text": ", ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "u": 1
+                }
+              ],
+              "text": "Underline",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "r": ""
+                }
+              ],
+              "text": ", ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "s": 1
+                }
+              ],
+              "text": "Strikethrough",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 42,
+        "End": 44,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "There should be no linebreak here,\\nbut there should be one here\\Nso this is on a separate line.",
+          "combined": "There should be no linebreak here,\\nbut there should be one here\\Nso this is on a separate line.",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "There should be no linebreak here,\\nbut there should be one here\\Nso this is on a separate line.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 44,
+        "End": 46,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "This line is pushed left by adding some hard spaces to the right\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h",
+          "combined": "This line is pushed left by adding some hard spaces to the right\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "This line is pushed left by adding some hard spaces to the right\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 44,
+        "End": 46,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "Regular spaces at line start/end are ignored, so this line is centered",
+          "combined": "Regular spaces at line start/end are ignored, so this line is centered",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "Regular spaces at line start/end are ignored, so this line is centered",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 46,
+        "End": 48,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an8\\q2}This is a long line but it is not broken into several because it's using the \\q override tag which changes the line-wrapping mode for a single line. The tag can take several values, 0 is the default which is \"smart wrapping\" with top lines longer, 1 is regular wrapping, 2 is no wrapping and 3 is smart-wrapping with bottom lines longer.",
+          "combined": "This is a long line but it is not broken into several because it's using the \\q override tag which changes the line-wrapping mode for a single line. The tag can take several values, 0 is the default which is \"smart wrapping\" with top lines longer, 1 is regular wrapping, 2 is no wrapping and 3 is smart-wrapping with bottom lines longer.",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 8
+                },
+                {
+                  "q": 2
+                }
+              ],
+              "text": "This is a long line but it is not broken into several because it's using the \\q override tag which changes the line-wrapping mode for a single line. The tag can take several values, 0 is the default which is \"smart wrapping\" with top lines longer, 1 is regular wrapping, 2 is no wrapping and 3 is smart-wrapping with bottom lines longer.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 46,
+        "End": 48,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\q1}This is a long line using the \\q1 override tag to get \"dumb\" wrapping, make as long lines as possible and first wrap when it'd go off screen. This is mostly visible when the last line generated is short.",
+          "combined": "This is a long line using the \\q1 override tag to get \"dumb\" wrapping, make as long lines as possible and first wrap when it'd go off screen. This is mostly visible when the last line generated is short.",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {
+                  "q": 1
+                }
+              ],
+              "text": "This is a long line using the \\q1 override tag to get \"dumb\" wrapping, make as long lines as possible and first wrap when it'd go off screen. This is mostly visible when the last line generated is short.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 46,
+        "End": 48,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\q3}And this line uses the \\q3 wrapping style, which is similar to the \\q0 default smart-wrap style, but has lower lines longer than the upper ones.",
+          "combined": "And this line uses the \\q3 wrapping style, which is similar to the \\q0 default smart-wrap style, but has lower lines longer than the upper ones.",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "q": 3
+                }
+              ],
+              "text": "And this line uses the \\q3 wrapping style, which is similar to the \\q0 default smart-wrap style, but has lower lines longer than the upper ones.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 48,
+        "End": 50,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5}{\\bord0\\t(\\bord10)}This text has a growing border\\N{\\r\\shad0\\t(\\shad10)}This text has an increasing shadow\\N{\\r\\t(\\fry360)}This text is rotating around the Y axis\\N{\\r\\t(\\frz720)}This text rotates {\\t(\\frx360)}and this one even more",
+          "combined": "This text has a growing border\\NThis text has an increasing shadow\\NThis text is rotating around the Y axis\\NThis text rotates and this one even more",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                }
+              ],
+              "text": "",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "bord": 0
+                },
+                {
+                  "t": {
+                    "t1": 0,
+                    "t2": 0,
+                    "accel": 1,
+                    "tags": [
+                      {
+                        "bord": 10
+                      }
+                    ]
+                  }
+                }
+              ],
+              "text": "This text has a growing border\\N",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "r": ""
+                },
+                {
+                  "shad": 0
+                },
+                {
+                  "t": {
+                    "t1": 0,
+                    "t2": 0,
+                    "accel": 1,
+                    "tags": [
+                      {
+                        "shad": 10
+                      }
+                    ]
+                  }
+                }
+              ],
+              "text": "This text has an increasing shadow\\N",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "r": ""
+                },
+                {
+                  "t": {
+                    "t1": 0,
+                    "t2": 0,
+                    "accel": 1,
+                    "tags": [
+                      {
+                        "fry": 360
+                      }
+                    ]
+                  }
+                }
+              ],
+              "text": "This text is rotating around the Y axis\\N",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "r": ""
+                },
+                {
+                  "t": {
+                    "t1": 0,
+                    "t2": 0,
+                    "accel": 1,
+                    "tags": [
+                      {
+                        "frz": 720
+                      }
+                    ]
+                  }
+                }
+              ],
+              "text": "This text rotates ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "t": {
+                    "t1": 0,
+                    "t2": 0,
+                    "accel": 1,
+                    "tags": [
+                      {
+                        "frx": 360
+                      }
+                    ]
+                  }
+                }
+              ],
+              "text": "and this one even more",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 50,
+        "End": 52,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\bord0\\shad0}All of this has no border or shadow...\\N{\\1c&H0000FF&}This is bright red, {\\1c&H00FF00&}green, {\\1c&HFF0000}blue{\\1c&HFFFFFF&}\\N{\\1a&H80&}50% transparent",
+          "combined": "All of this has no border or shadow...\\NThis is bright red, green, blue\\N50% transparent",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {
+                  "bord": 0
+                },
+                {
+                  "shad": 0
+                }
+              ],
+              "text": "All of this has no border or shadow...\\N",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "c1": "0000FF"
+                }
+              ],
+              "text": "This is bright red, ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "c1": "00FF00"
+                }
+              ],
+              "text": "green, ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "c1": "FF0000"
+                }
+              ],
+              "text": "blue",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "c1": "FFFFFF"
+                }
+              ],
+              "text": "\\N",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "a1": "80"
+                }
+              ],
+              "text": "50% transparent",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 52,
+        "End": 54,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\fsp10}Large inter-letter spacing",
+          "combined": "Large inter-letter spacing",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "fsp": 10
+                }
+              ],
+              "text": "Large inter-letter spacing",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 54,
+        "End": 56,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\shad0}No shadow here, just regular border, {\\be1}but this is \\be1 blurred edges!",
+          "combined": "No shadow here, just regular border, but this is \\be1 blurred edges!",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "shad": 0
+                }
+              ],
+              "text": "No shadow here, just regular border, ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "be": 1
+                }
+              ],
+              "text": "but this is \\be1 blurred edges!",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 56,
+        "End": 58,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\t(1000,2000,\\alpha&HFF&)}Fading out after 1 sec on screen, using \\alpha. Everything should fade.",
+          "combined": "Fading out after 1 sec on screen, using \\alpha. Everything should fade.",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "t": {
+                    "t1": 1000,
+                    "t2": 2000,
+                    "accel": 1,
+                    "tags": [
+                      {
+                        "alpha": "FF"
+                      }
+                    ]
+                  }
+                }
+              ],
+              "text": "Fading out after 1 sec on screen, using \\alpha. Everything should fade.",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 58,
+        "End": 60,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\fad(1000,1000)}Fading in and out using \\fad",
+          "combined": "Fading in and out using \\fad",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "fad": [
+                    1000,
+                    1000
+                  ]
+                }
+              ],
+              "text": "Fading in and out using \\fad",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 60,
+        "End": 62,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\k10}And {\\k5}now {\\k20}for {\\kf50}ka{\\kf20}ra{\\K70}o{\\K10}ke{\\k0}!",
+          "combined": "And now for karaoke!",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "k": 10
+                }
+              ],
+              "text": "And ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "k": 5
+                }
+              ],
+              "text": "now ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "k": 20
+                }
+              ],
+              "text": "for ",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "kf": 50
+                }
+              ],
+              "text": "ka",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "kf": 20
+                }
+              ],
+              "text": "ra",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "K": 70
+                }
+              ],
+              "text": "o",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "K": 10
+                }
+              ],
+              "text": "ke",
+              "drawing": []
+            },
+            {
+              "tags": [
+                {
+                  "k": 0
+                }
+              ],
+              "text": "!",
+              "drawing": []
+            }
+          ]
+        }
+      },
+      {
+        "Layer": 0,
+        "Start": 62,
+        "End": 64,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "{\\an5\\t()\\clip(69,215,573,267)\\t(1000,2000,3,\\clip(573,267,573,267))}And the last thing on the programme, an animated rectangular \\clip, delayed by 1 second. And it even uses acceleration...!",
+          "combined": "And the last thing on the programme, an animated rectangular \\clip, delayed by 1 second. And it even uses acceleration...!",
+          "parsed": [
+            {
+              "tags": [
+                {
+                  "an": 5
+                },
+                {},
+                {
+                  "clip": {
+                    "inverse": false,
+                    "scale": 1,
+                    "drawing": null,
+                    "dots": [
+                      69,
+                      215,
+                      573,
+                      267
+                    ]
+                  }
+                },
+                {
+                  "t": {
+                    "t1": 1000,
+                    "t2": 2000,
+                    "accel": 3,
+                    "tags": [
+                      {
+                        "clip": {
+                          "inverse": false,
+                          "scale": 1,
+                          "drawing": null,
+                          "dots": [
+                            573,
+                            267,
+                            573,
+                            267
+                          ]
+                        }
+                      }
+                    ]
+                  }
+                }
+              ],
+              "text": "And the last thing on the programme, an animated rectangular \\clip, delayed by 1 second. And it even uses acceleration...!",
+              "drawing": []
+            }
+          ]
+        }
+      }
+    ]
+  }
+}

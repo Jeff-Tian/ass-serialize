@@ -1,10 +1,12 @@
+import moment from 'moment'
+
 function serializeKeyValue(json, key) {
     return `${key}: ${json[key]}`
 }
 
 export default class AssSerializer {
-    static serialize(input) {
-        return input
+    static serialize(json) {
+        return AssSerializer.serializeHeaderInfo(json) + AssSerializer.serializeV4Styles(json) + AssSerializer.serializeEvents(json)
     }
 
     static serializeHeaderInfo(json) {
@@ -34,5 +36,32 @@ Format: ${v4Styles.format.join(', ')}
 ${v4Styles.style.map(s => `Style: ${s.join(',')}`).join('\n')}
 
 `
+    }
+
+    static serializeEvents(json) {
+        let events = json.events
+
+        return `[Events]
+Format: ${events.format.join(', ')}
+${events.comment.map(d => AssSerializer.serializeComment(d)).join('\n')}
+${events.dialogue ? events.dialogue.map(d => AssSerializer.serializeDialogue(d)).join('\n') + '\n' : ''}`
+    }
+
+    static serializeTime(number) {
+        let milli = String(number).split('.')[1]
+
+        return moment().startOf('day').seconds(number).format('H:mm:ss') + '.' + (milli || '').padEnd(2, '0')
+    }
+
+    static serializeDialogueItem(d) {
+        return `${d.Layer},${AssSerializer.serializeTime(d.Start)},${AssSerializer.serializeTime(d.End)},${d.Style ? d.Style : ''},${d.Name ? d.Name : ''},${String(d.MarginL).padStart(4, '0')},${String(d.MarginR).padStart(4, '0')},${String(d.MarginV).padStart(4, '0')},${d.Effect ? d.Effect : ''},${d.Text.raw}`
+    }
+
+    static serializeDialogue(d) {
+        return `Dialogue: ${AssSerializer.serializeDialogueItem(d)}`
+    }
+
+    static serializeComment(d) {
+        return `Comment: ${AssSerializer.serializeDialogueItem(d)}`
     }
 }

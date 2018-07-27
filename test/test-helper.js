@@ -7,7 +7,7 @@ export default class TestHelper {
 
         results.forEach((part) => {
             if (part.added) {
-                console.log('(added)[+] ', part.value)
+                console.log('( added )[+] ', part.value)
                 identical = false
             }
 

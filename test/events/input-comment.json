@@ -1,0 +1,40 @@
+{
+  "events": {
+    "format": [
+      "Layer",
+      "Start",
+      "End",
+      "Style",
+      "Name",
+      "MarginL",
+      "MarginR",
+      "MarginV",
+      "Effect",
+      "Text"
+    ],
+    "comment": [
+      {
+        "Layer": 0,
+        "Start": 0,
+        "End": 5,
+        "Style": "Default",
+        "Name": "",
+        "MarginL": 0,
+        "MarginR": 0,
+        "MarginV": 0,
+        "Effect": null,
+        "Text": {
+          "raw": "This line is a comment and should not display on rendered output. This file is intended to be rendered on a 640x480 video, preferably a single solid colour, or maybe a checkerboard pattern.",
+          "combined": "This line is a comment and should not display on rendered output. This file is intended to be rendered on a 640x480 video, preferably a single solid colour, or maybe a checkerboard pattern.",
+          "parsed": [
+            {
+              "tags": [],
+              "text": "This line is a comment and should not display on rendered output. This file is intended to be rendered on a 640x480 video, preferably a single solid colour, or maybe a checkerboard pattern.",
+              "drawing": []
+            }
+          ]
+        }
+      }
+    ]
+  }
+}
