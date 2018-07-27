@@ -1,0 +1,3781 @@
+{
+  "info": {
+    "Title": "Default Aegisub file",
+    "ScriptType": "v4.00+",
+    "WrapStyle": "0",
+    "PlayResX": "640",
+    "PlayResY": "480",
+    "ScaledBorderAndShadow": "yes",
+    "Last Style Storage": "Default",
+    "Video File": "?dummy:23.976000:40000:640:480:47:163:254:",
+    "Video Aspect Ratio": "0",
+    "Video Zoom": "8",
+    "Video Position": "0"
+  },
+  "width": 640,
+  "height": 480,
+  "collisions": "Normal",
+  "styles": {
+    "Default": {
+      "style": {
+        "Name": "Default",
+        "Fontname": "Arial",
+        "Fontsize": 20,
+        "PrimaryColour": "&H00FFFFFF",
+        "SecondaryColour": "&H000000FF",
+        "OutlineColour": "&H00000000",
+        "BackColour": "&H00000000",
+        "Bold": 0,
+        "Italic": 0,
+        "Underline": 0,
+        "StrikeOut": 0,
+        "ScaleX": 100,
+        "ScaleY": 100,
+        "Spacing": 0,
+        "Angle": 0,
+        "BorderStyle": 1,
+        "Outline": 2,
+        "Shadow": 2,
+        "Alignment": 2,
+        "MarginL": 10,
+        "MarginR": 10,
+        "MarginV": 10,
+        "Encoding": 0
+      },
+      "tag": {
+        "fn": "Arial",
+        "fs": 20,
+        "c1": "FFFFFF",
+        "a1": "00",
+        "c2": "0000FF",
+        "a2": "00",
+        "c3": "000000",
+        "a3": "00",
+        "c4": "000000",
+        "a4": "00",
+        "b": 0,
+        "i": 0,
+        "u": 0,
+        "s": 0,
+        "fscx": 100,
+        "fscy": 100,
+        "fsp": 0,
+        "frz": 0,
+        "xbord": 2,
+        "ybord": 2,
+        "xshad": 2,
+        "yshad": 2,
+        "q": 0
+      }
+    },
+    "Alt": {
+      "style": {
+        "Name": "Alt",
+        "Fontname": "Times New Roman",
+        "Fontsize": 40,
+        "PrimaryColour": "&H00FFFFFF",
+        "SecondaryColour": "&H000000FF",
+        "OutlineColour": "&H00000000",
+        "BackColour": "&H00000000",
+        "Bold": 0,
+        "Italic": 0,
+        "Underline": 0,
+        "StrikeOut": 0,
+        "ScaleX": 100,
+        "ScaleY": 100,
+        "Spacing": 0,
+        "Angle": 0,
+        "BorderStyle": 1,
+        "Outline": 2,
+        "Shadow": 2,
+        "Alignment": 8,
+        "MarginL": 10,
+        "MarginR": 10,
+        "MarginV": 10,
+        "Encoding": 0
+      },
+      "tag": {
+        "fn": "Times New Roman",
+        "fs": 40,
+        "c1": "FFFFFF",
+        "a1": "00",
+        "c2": "0000FF",
+        "a2": "00",
+        "c3": "000000",
+        "a3": "00",
+        "c4": "000000",
+        "a4": "00",
+        "b": 0,
+        "i": 0,
+        "u": 0,
+        "s": 0,
+        "fscx": 100,
+        "fscy": 100,
+        "fsp": 0,
+        "frz": 0,
+        "xbord": 2,
+        "ybord": 2,
+        "xshad": 2,
+        "yshad": 2,
+        "q": 0
+      }
+    }
+  },
+  "dialogues": [
+    {
+      "layer": 0,
+      "start": 0,
+      "end": 5,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "This is a test of the ASS format and some basic features in it.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 5,
+      "end": 7,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "This and the previous line should both show at the bottom of the video in 20 pixel high white Arial with a 2 pixel black outline and 2 pixel offset shadow. This line is long so it should automatically be broken into several lines that are approximately even length, with upper lines being longer.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 7,
+      "end": 9,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Now going to test conflict resolution. ",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 7.5,
+      "end": 9,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "This line should be above the previous.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 9,
+      "end": 11,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 1,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "This line should be lower-left aligned using the \\an1 override.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 11,
+      "end": 13,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 9,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Upper right",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 12,
+      "end": 14,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 8,
+      "slices": [
+        {
+          "name": "Alt",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Times New Roman",
+            "fs": 40,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "This one should be below the \"Upper right\" line and be centered on screen. It should also be in 40 pixel high Times New Roman.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 14,
+      "end": 16,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 8,
+      "slices": [
+        {
+          "name": "Alt",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Times New Roman",
+            "fs": 40,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "fs": 10
+              },
+              "text": "This should also be a toptitle in Times New Roman, but much smaller. Using an override tag to change size.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 16,
+      "end": 18,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 7,
+      "slices": [
+        {
+          "name": "Alt",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Times New Roman",
+            "fs": 40,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Top-left using the legacy \\a5 tag",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 18,
+      "end": 20,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "This is in layer 0",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "start": 18,
+      "end": 20,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "And this line is in layer 1",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 18,
+      "end": 20,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "This line is centered on screen.\\NAt the bottom of the screen should be two lines in different layers, they are rendered on top of each other because conflict resolution only considers lines in the same layer.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 1,
+      "start": 20,
+      "end": 22,
+      "margin": {
+        "left": 50,
+        "right": 10,
+        "vertical": 20
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "And this line is in layer 1, but has changed its margins so it isn't exactly centered, and it's raised above the other line.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 20,
+      "end": 22,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Another line in layer 0",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 22,
+      "end": 24,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Switching ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "fn": "Times New Roman"
+              },
+              "text": "font inline, ",
+              "drawing": null
+            }
+          ]
+        },
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "and resetting styles",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 24,
+      "end": 26,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Also ",
+              "drawing": null
+            }
+          ]
+        },
+        {
+          "name": "Alt",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Times New Roman",
+            "fs": 40,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "switching to a different style ",
+              "drawing": null
+            }
+          ]
+        },
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "inline",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 26,
+      "end": 28,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Positioning... this line should be in an odd place",
+              "drawing": null
+            }
+          ]
+        }
+      ],
+      "pos": {
+        "x": 258,
+        "y": 131
+      }
+    },
+    {
+      "layer": 0,
+      "start": 26,
+      "end": 28,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "frz": 29.559
+              },
+              "text": "So should this one, and be rotated",
+              "drawing": null
+            }
+          ]
+        }
+      ],
+      "pos": {
+        "x": 222,
+        "y": 338
+      }
+    },
+    {
+      "layer": 0,
+      "start": 28,
+      "end": 30,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "frz": 338.403,
+                "frx": 42,
+                "fry": 30
+              },
+              "text": "Some more rotation tricks, this time in 3D and with a different origin",
+              "drawing": null
+            }
+          ]
+        }
+      ],
+      "pos": {
+        "x": 371,
+        "y": 314
+      },
+      "org": {
+        "x": 187,
+        "y": 165
+      }
+    },
+    {
+      "layer": 0,
+      "start": 30,
+      "end": 32,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "t": [
+                  {
+                    "t1": 0,
+                    "t2": 2000,
+                    "accel": 1,
+                    "tag": {
+                      "frz": 360
+                    }
+                  }
+                ]
+              },
+              "text": "This line is animated and rotates 360 degrees over its duration",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 32,
+      "end": 34,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "This line moves",
+              "drawing": null
+            }
+          ]
+        }
+      ],
+      "move": {
+        "x1": 182,
+        "y1": 157,
+        "x2": 414,
+        "y2": 311,
+        "t1": 0,
+        "t2": 0
+      }
+    },
+    {
+      "layer": 0,
+      "start": 34,
+      "end": 36,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "This line is only partially visible\\Nso if you can see this, \\clip is handled incorrectly",
+              "drawing": null
+            }
+          ]
+        }
+      ],
+      "clip": {
+        "inverse": false,
+        "scale": 1,
+        "drawing": null,
+        "dots": {
+          "x1": 126,
+          "y1": 192,
+          "x2": 487,
+          "y2": 241
+        }
+      }
+    },
+    {
+      "layer": 0,
+      "start": 36,
+      "end": 38,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "And this line has a funnily-shaped clip area",
+              "drawing": null
+            }
+          ]
+        }
+      ],
+      "clip": {
+        "inverse": false,
+        "scale": 1,
+        "drawing": {
+          "instructions": [
+            {
+              "type": "M",
+              "points": [
+                {
+                  "x": 178,
+                  "y": 212
+                }
+              ]
+            },
+            {
+              "type": "L",
+              "points": [
+                {
+                  "x": 163,
+                  "y": 249
+                },
+                {
+                  "x": 212,
+                  "y": 302
+                },
+                {
+                  "x": 257,
+                  "y": 232
+                },
+                {
+                  "x": 309,
+                  "y": 249
+                },
+                {
+                  "x": 366,
+                  "y": 241
+                },
+                {
+                  "x": 392,
+                  "y": 285
+                },
+                {
+                  "x": 473,
+                  "y": 267
+                },
+                {
+                  "x": 487,
+                  "y": 210
+                },
+                {
+                  "x": 421,
+                  "y": 241
+                },
+                {
+                  "x": 353,
+                  "y": 219
+                },
+                {
+                  "x": 207,
+                  "y": 258
+                }
+              ]
+            }
+          ],
+          "d": "M178,212L163,249,212,302,257,232,309,249,366,241,392,285,473,267,487,210,421,241,353,219,207,258",
+          "minX": 163,
+          "minY": 210,
+          "width": 324,
+          "height": 92
+        },
+        "dots": null
+      }
+    },
+    {
+      "layer": 0,
+      "start": 38,
+      "end": 40,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Here should be a pretty feather with a thin border and no shadow:",
+              "drawing": null
+            }
+          ]
+        }
+      ],
+      "pos": {
+        "x": 321,
+        "y": 193
+      }
+    },
+    {
+      "layer": 0,
+      "start": 38,
+      "end": 40,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "xbord": 1,
+                "ybord": 1,
+                "xshad": 0,
+                "yshad": 0,
+                "p": 1,
+                "fscx": 300,
+                "fscy": 300
+              },
+              "text": "",
+              "drawing": {
+                "instructions": [
+                  {
+                    "type": "M",
+                    "points": [
+                      {
+                        "x": 0,
+                        "y": 0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 33,
+                        "y": -3
+                      },
+                      {
+                        "x": 48,
+                        "y": -7
+                      },
+                      {
+                        "x": 61,
+                        "y": -19
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 53,
+                        "y": -7
+                      },
+                      {
+                        "x": 31,
+                        "y": -1
+                      },
+                      {
+                        "x": 1,
+                        "y": 2
+                      }
+                    ]
+                  },
+                  {
+                    "type": "M",
+                    "points": [
+                      {
+                        "x": 9,
+                        "y": 0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 9,
+                        "y": -5
+                      },
+                      {
+                        "x": 10,
+                        "y": -6
+                      },
+                      {
+                        "x": 14,
+                        "y": -12
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 9,
+                        "y": -5
+                      },
+                      {
+                        "x": 10,
+                        "y": -3
+                      },
+                      {
+                        "x": 10,
+                        "y": 0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "M",
+                    "points": [
+                      {
+                        "x": 10,
+                        "y": -1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 10,
+                        "y": -5
+                      },
+                      {
+                        "x": 11,
+                        "y": -8
+                      },
+                      {
+                        "x": 16,
+                        "y": -12
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 17,
+                        "y": -12
+                      },
+                      {
+                        "x": 18,
+                        "y": -13
+                      },
+                      {
+                        "x": 22,
+                        "y": -14
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 18,
+                        "y": -10
+                      },
+                      {
+                        "x": 16,
+                        "y": -6
+                      },
+                      {
+                        "x": 15,
+                        "y": -1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 17,
+                        "y": -6
+                      },
+                      {
+                        "x": 19,
+                        "y": -10
+                      },
+                      {
+                        "x": 23,
+                        "y": -14
+                      }
+                    ]
+                  },
+                  {
+                    "type": "L",
+                    "points": [
+                      {
+                        "x": 26,
+                        "y": -15
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 22,
+                        "y": -11
+                      },
+                      {
+                        "x": 20,
+                        "y": -6
+                      },
+                      {
+                        "x": 19,
+                        "y": -2
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 24,
+                        "y": -11
+                      },
+                      {
+                        "x": 27,
+                        "y": -14
+                      },
+                      {
+                        "x": 28,
+                        "y": -15
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 31,
+                        "y": -16
+                      },
+                      {
+                        "x": 35,
+                        "y": -16
+                      },
+                      {
+                        "x": 39,
+                        "y": -16
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 37,
+                        "y": -14
+                      },
+                      {
+                        "x": 36,
+                        "y": -10
+                      },
+                      {
+                        "x": 36,
+                        "y": -5
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 36,
+                        "y": -9
+                      },
+                      {
+                        "x": 38,
+                        "y": -14
+                      },
+                      {
+                        "x": 39,
+                        "y": -16
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 41,
+                        "y": -16
+                      },
+                      {
+                        "x": 43,
+                        "y": -16
+                      },
+                      {
+                        "x": 45,
+                        "y": -15
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 44,
+                        "y": -13
+                      },
+                      {
+                        "x": 43,
+                        "y": -10
+                      },
+                      {
+                        "x": 43,
+                        "y": -7
+                      }
+                    ]
+                  },
+                  {
+                    "type": "L",
+                    "points": [
+                      {
+                        "x": 29,
+                        "y": -3
+                      }
+                    ]
+                  },
+                  {
+                    "type": "M",
+                    "points": [
+                      {
+                        "x": 43,
+                        "y": -7
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 44,
+                        "y": -11
+                      },
+                      {
+                        "x": 45,
+                        "y": -13
+                      },
+                      {
+                        "x": 47,
+                        "y": -15
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 46,
+                        "y": -13
+                      },
+                      {
+                        "x": 46,
+                        "y": -11
+                      },
+                      {
+                        "x": 46,
+                        "y": -9
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 46,
+                        "y": -11
+                      },
+                      {
+                        "x": 47,
+                        "y": -13
+                      },
+                      {
+                        "x": 49,
+                        "y": -15
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 51,
+                        "y": -15
+                      },
+                      {
+                        "x": 48,
+                        "y": -13
+                      },
+                      {
+                        "x": 48,
+                        "y": -9
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 49,
+                        "y": -11
+                      },
+                      {
+                        "x": 49,
+                        "y": -14
+                      },
+                      {
+                        "x": 52,
+                        "y": -16
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 55,
+                        "y": -16
+                      },
+                      {
+                        "x": 53,
+                        "y": -17
+                      },
+                      {
+                        "x": 51,
+                        "y": -11
+                      }
+                    ]
+                  },
+                  {
+                    "type": "L",
+                    "points": [
+                      {
+                        "x": 48,
+                        "y": -8
+                      }
+                    ]
+                  },
+                  {
+                    "type": "M",
+                    "points": [
+                      {
+                        "x": 54,
+                        "y": -13
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 53,
+                        "y": -14
+                      },
+                      {
+                        "x": 54,
+                        "y": -15
+                      },
+                      {
+                        "x": 54,
+                        "y": -16
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 54,
+                        "y": -15
+                      },
+                      {
+                        "x": 54,
+                        "y": -14
+                      },
+                      {
+                        "x": 55,
+                        "y": -13
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 57,
+                        "y": -13
+                      },
+                      {
+                        "x": 60,
+                        "y": -12
+                      },
+                      {
+                        "x": 62,
+                        "y": -14
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 61,
+                        "y": -12
+                      },
+                      {
+                        "x": 55,
+                        "y": -12
+                      },
+                      {
+                        "x": 53,
+                        "y": -12
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 55,
+                        "y": -11
+                      },
+                      {
+                        "x": 56,
+                        "y": -10
+                      },
+                      {
+                        "x": 61,
+                        "y": -10
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 61,
+                        "y": -7
+                      },
+                      {
+                        "x": 53,
+                        "y": -9
+                      },
+                      {
+                        "x": 52,
+                        "y": -11
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 53,
+                        "y": -8
+                      },
+                      {
+                        "x": 55,
+                        "y": -7
+                      },
+                      {
+                        "x": 58,
+                        "y": -6
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 57,
+                        "y": -5
+                      },
+                      {
+                        "x": 56,
+                        "y": -4
+                      },
+                      {
+                        "x": 54,
+                        "y": -3
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 49,
+                        "y": -5
+                      },
+                      {
+                        "x": 48,
+                        "y": -6
+                      },
+                      {
+                        "x": 47,
+                        "y": -9
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 47,
+                        "y": -6
+                      },
+                      {
+                        "x": 50,
+                        "y": -4
+                      },
+                      {
+                        "x": 53,
+                        "y": -2
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 49,
+                        "y": -3
+                      },
+                      {
+                        "x": 47,
+                        "y": -6
+                      },
+                      {
+                        "x": 45,
+                        "y": -8
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 46,
+                        "y": -6
+                      },
+                      {
+                        "x": 49,
+                        "y": -3
+                      },
+                      {
+                        "x": 52,
+                        "y": -1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 46,
+                        "y": 2
+                      },
+                      {
+                        "x": 45,
+                        "y": 3
+                      },
+                      {
+                        "x": 43,
+                        "y": 3
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 40,
+                        "y": 0
+                      },
+                      {
+                        "x": 39,
+                        "y": -3
+                      },
+                      {
+                        "x": 40,
+                        "y": -6
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 39,
+                        "y": -3
+                      },
+                      {
+                        "x": 39,
+                        "y": 1
+                      },
+                      {
+                        "x": 42,
+                        "y": 3
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 40,
+                        "y": 6
+                      },
+                      {
+                        "x": 36,
+                        "y": 1
+                      },
+                      {
+                        "x": 34,
+                        "y": -4
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 35,
+                        "y": -1
+                      },
+                      {
+                        "x": 36,
+                        "y": 2
+                      },
+                      {
+                        "x": 38,
+                        "y": 5
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 32,
+                        "y": 7
+                      },
+                      {
+                        "x": 26,
+                        "y": 9
+                      },
+                      {
+                        "x": 22,
+                        "y": 8
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 19,
+                        "y": 5
+                      },
+                      {
+                        "x": 17,
+                        "y": 2
+                      },
+                      {
+                        "x": 16,
+                        "y": -1
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 17,
+                        "y": 3
+                      },
+                      {
+                        "x": 19,
+                        "y": 5
+                      },
+                      {
+                        "x": 20,
+                        "y": 7
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 17,
+                        "y": 4
+                      },
+                      {
+                        "x": 16,
+                        "y": 2
+                      },
+                      {
+                        "x": 15,
+                        "y": 0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 15,
+                        "y": 2
+                      },
+                      {
+                        "x": 17,
+                        "y": 5
+                      },
+                      {
+                        "x": 19,
+                        "y": 8
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 15,
+                        "y": 9
+                      },
+                      {
+                        "x": 13,
+                        "y": 3
+                      },
+                      {
+                        "x": 12,
+                        "y": 0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "L",
+                    "points": [
+                      {
+                        "x": 25,
+                        "y": -2
+                      }
+                    ]
+                  },
+                  {
+                    "type": "L",
+                    "points": [
+                      {
+                        "x": 42,
+                        "y": -7
+                      }
+                    ]
+                  },
+                  {
+                    "type": "M",
+                    "points": [
+                      {
+                        "x": 12,
+                        "y": 0
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 13,
+                        "y": 3
+                      },
+                      {
+                        "x": 13,
+                        "y": 7
+                      },
+                      {
+                        "x": 17,
+                        "y": 9
+                      }
+                    ]
+                  },
+                  {
+                    "type": "C",
+                    "points": [
+                      {
+                        "x": 12,
+                        "y": 7
+                      },
+                      {
+                        "x": 10,
+                        "y": 1
+                      },
+                      {
+                        "x": 10,
+                        "y": 0
+                      }
+                    ]
+                  }
+                ],
+                "d": "M0,0C33,-3,48,-7,61,-19C53,-7,31,-1,1,2M9,0C9,-5,10,-6,14,-12C9,-5,10,-3,10,0M10,-1C10,-5,11,-8,16,-12C17,-12,18,-13,22,-14C18,-10,16,-6,15,-1C17,-6,19,-10,23,-14L26,-15C22,-11,20,-6,19,-2C24,-11,27,-14,28,-15C31,-16,35,-16,39,-16C37,-14,36,-10,36,-5C36,-9,38,-14,39,-16C41,-16,43,-16,45,-15C44,-13,43,-10,43,-7L29,-3M43,-7C44,-11,45,-13,47,-15C46,-13,46,-11,46,-9C46,-11,47,-13,49,-15C51,-15,48,-13,48,-9C49,-11,49,-14,52,-16C55,-16,53,-17,51,-11L48,-8M54,-13C53,-14,54,-15,54,-16C54,-15,54,-14,55,-13C57,-13,60,-12,62,-14C61,-12,55,-12,53,-12C55,-11,56,-10,61,-10C61,-7,53,-9,52,-11C53,-8,55,-7,58,-6C57,-5,56,-4,54,-3C49,-5,48,-6,47,-9C47,-6,50,-4,53,-2C49,-3,47,-6,45,-8C46,-6,49,-3,52,-1C46,2,45,3,43,3C40,0,39,-3,40,-6C39,-3,39,1,42,3C40,6,36,1,34,-4C35,-1,36,2,38,5C32,7,26,9,22,8C19,5,17,2,16,-1C17,3,19,5,20,7C17,4,16,2,15,0C15,2,17,5,19,8C15,9,13,3,12,0L25,-2L42,-7M12,0C13,3,13,7,17,9C12,7,10,1,10,0",
+                "minX": 0,
+                "minY": -19,
+                "width": 62,
+                "height": 28
+              }
+            }
+          ]
+        }
+      ],
+      "pos": {
+        "x": 316,
+        "y": 312
+      }
+    },
+    {
+      "layer": 0,
+      "start": 40,
+      "end": 42,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Some other basic font style tests:\\NNormal, ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "b": 1
+              },
+              "text": "Boldface",
+              "drawing": null
+            }
+          ]
+        },
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": ", ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "i": 1
+              },
+              "text": "Italics",
+              "drawing": null
+            }
+          ]
+        },
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": ", ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "u": 1
+              },
+              "text": "Underline",
+              "drawing": null
+            }
+          ]
+        },
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": ", ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "s": 1
+              },
+              "text": "Strikethrough",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 42,
+      "end": 44,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "There should be no linebreak here,\\nbut there should be one here\\Nso this is on a separate line.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 44,
+      "end": 46,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "This line is pushed left by adding some hard spaces to the right\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h\\h",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 44,
+      "end": 46,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Regular spaces at line start/end are ignored, so this line is centered",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 46,
+      "end": 48,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 8,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "q": 2
+              },
+              "text": "This is a long line but it is not broken into several because it's using the \\q override tag which changes the line-wrapping mode for a single line. The tag can take several values, 0 is the default which is \"smart wrapping\" with top lines longer, 1 is regular wrapping, 2 is no wrapping and 3 is smart-wrapping with bottom lines longer.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 46,
+      "end": 48,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "q": 1
+              },
+              "text": "This is a long line using the \\q1 override tag to get \"dumb\" wrapping, make as long lines as possible and first wrap when it'd go off screen. This is mostly visible when the last line generated is short.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 46,
+      "end": 48,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "q": 3
+              },
+              "text": "And this line uses the \\q3 wrapping style, which is similar to the \\q0 default smart-wrap style, but has lower lines longer than the upper ones.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 48,
+      "end": 50,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "xbord": 0,
+                "ybord": 0,
+                "t": [
+                  {
+                    "t1": 0,
+                    "t2": 2000,
+                    "accel": 1,
+                    "tag": {
+                      "xbord": 10,
+                      "ybord": 10
+                    }
+                  }
+                ]
+              },
+              "text": "This text has a growing border\\N",
+              "drawing": null
+            }
+          ]
+        },
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "xshad": 0,
+                "yshad": 0,
+                "t": [
+                  {
+                    "t1": 0,
+                    "t2": 2000,
+                    "accel": 1,
+                    "tag": {
+                      "xshad": 10,
+                      "yshad": 10
+                    }
+                  }
+                ]
+              },
+              "text": "This text has an increasing shadow\\N",
+              "drawing": null
+            }
+          ]
+        },
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "t": [
+                  {
+                    "t1": 0,
+                    "t2": 2000,
+                    "accel": 1,
+                    "tag": {
+                      "fry": 360
+                    }
+                  }
+                ]
+              },
+              "text": "This text is rotating around the Y axis\\N",
+              "drawing": null
+            }
+          ]
+        },
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "t": [
+                  {
+                    "t1": 0,
+                    "t2": 2000,
+                    "accel": 1,
+                    "tag": {
+                      "frz": 720
+                    }
+                  }
+                ]
+              },
+              "text": "This text rotates ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "t": [
+                  {
+                    "t1": 0,
+                    "t2": 2000,
+                    "accel": 1,
+                    "tag": {
+                      "frz": 720
+                    }
+                  },
+                  {
+                    "t1": 0,
+                    "t2": 2000,
+                    "accel": 1,
+                    "tag": {
+                      "frx": 360
+                    }
+                  }
+                ]
+              },
+              "text": "and this one even more",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 50,
+      "end": 52,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "xbord": 0,
+                "ybord": 0,
+                "xshad": 0,
+                "yshad": 0
+              },
+              "text": "All of this has no border or shadow...\\N",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "xbord": 0,
+                "ybord": 0,
+                "xshad": 0,
+                "yshad": 0,
+                "c1": "0000FF"
+              },
+              "text": "This is bright red, ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "xbord": 0,
+                "ybord": 0,
+                "xshad": 0,
+                "yshad": 0,
+                "c1": "00FF00"
+              },
+              "text": "green, ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "xbord": 0,
+                "ybord": 0,
+                "xshad": 0,
+                "yshad": 0,
+                "c1": "FF0000"
+              },
+              "text": "blue",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "xbord": 0,
+                "ybord": 0,
+                "xshad": 0,
+                "yshad": 0,
+                "c1": "FFFFFF"
+              },
+              "text": "\\N",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "xbord": 0,
+                "ybord": 0,
+                "xshad": 0,
+                "yshad": 0,
+                "c1": "FFFFFF",
+                "a1": "80"
+              },
+              "text": "50% transparent",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 52,
+      "end": 54,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "fsp": 10
+              },
+              "text": "Large inter-letter spacing",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 54,
+      "end": 56,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "xshad": 0,
+                "yshad": 0
+              },
+              "text": "No shadow here, just regular border, ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "xshad": 0,
+                "yshad": 0,
+                "be": 1
+              },
+              "text": "but this is \\be1 blurred edges!",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 56,
+      "end": 58,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "t": [
+                  {
+                    "t1": 1000,
+                    "t2": 2000,
+                    "accel": 1,
+                    "tag": {
+                      "a1": "FF",
+                      "a2": "FF",
+                      "a3": "FF",
+                      "a4": "FF"
+                    }
+                  }
+                ]
+              },
+              "text": "Fading out after 1 sec on screen, using \\alpha. Everything should fade.",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 58,
+      "end": 60,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {},
+              "text": "Fading in and out using \\fad",
+              "drawing": null
+            }
+          ]
+        }
+      ],
+      "fade": {
+        "type": "fad",
+        "t1": 1000,
+        "t2": 1000
+      }
+    },
+    {
+      "layer": 0,
+      "start": 60,
+      "end": 62,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 2,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "k": 10
+              },
+              "text": "And ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "k": 5
+              },
+              "text": "now ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "k": 20
+              },
+              "text": "for ",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "k": 20,
+                "kf": 50
+              },
+              "text": "ka",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "k": 20,
+                "kf": 20
+              },
+              "text": "ra",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "k": 20,
+                "kf": 20,
+                "K": 70
+              },
+              "text": "o",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "k": 20,
+                "kf": 20,
+                "K": 10
+              },
+              "text": "ke",
+              "drawing": null
+            },
+            {
+              "tag": {
+                "k": 0,
+                "kf": 20,
+                "K": 10
+              },
+              "text": "!",
+              "drawing": null
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "layer": 0,
+      "start": 62,
+      "end": 64,
+      "margin": {
+        "left": 10,
+        "right": 10,
+        "vertical": 10
+      },
+      "effect": null,
+      "alignment": 5,
+      "slices": [
+        {
+          "name": "Default",
+          "borderStyle": 1,
+          "tag": {
+            "fn": "Arial",
+            "fs": 20,
+            "c1": "FFFFFF",
+            "a1": "00",
+            "c2": "0000FF",
+            "a2": "00",
+            "c3": "000000",
+            "a3": "00",
+            "c4": "000000",
+            "a4": "00",
+            "b": 0,
+            "i": 0,
+            "u": 0,
+            "s": 0,
+            "fscx": 100,
+            "fscy": 100,
+            "fsp": 0,
+            "frz": 0,
+            "xbord": 2,
+            "ybord": 2,
+            "xshad": 2,
+            "yshad": 2,
+            "q": 0
+          },
+          "fragments": [
+            {
+              "tag": {
+                "t": [
+                  {
+                    "t1": 1000,
+                    "t2": 2000,
+                    "accel": 3,
+                    "tag": {
+                      "clip": {
+                        "inverse": false,
+                        "scale": 1,
+                        "drawing": null,
+                        "dots": {
+                          "x1": 573,
+                          "y1": 267,
+                          "x2": 573,
+                          "y2": 267
+                        }
+                      }
+                    }
+                  }
+                ]
+              },
+              "text": "And the last thing on the programme, an animated rectangular \\clip, delayed by 1 second. And it even uses acceleration...!",
+              "drawing": null
+            }
+          ]
+        }
+      ],
+      "clip": {
+        "inverse": false,
+        "scale": 1,
+        "drawing": null,
+        "dots": {
+          "x1": 69,
+          "y1": 215,
+          "x2": 573,
+          "y2": 267
+        }
+      }
+    }
+  ]
+}

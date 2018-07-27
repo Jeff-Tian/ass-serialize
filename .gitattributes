@@ -1,0 +1,7 @@
+*.json text eol=lf
+*.js text eol=lf
+*.ass text eol=lf
+.babelrc text eol=lf
+.gitattributes text eol=lf
+.gitignore text eol=lf
+*.md text eol=lf
