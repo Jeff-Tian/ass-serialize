@@ -22,6 +22,17 @@ ${serializeKeyValue(info, 'Video File')}
 ${serializeKeyValue(info, 'Video Aspect Ratio')}
 ${serializeKeyValue(info, 'Video Zoom')}
 ${serializeKeyValue(info, 'Video Position')}
+
+`
+    }
+
+    static serializeV4Styles(json) {
+        let v4Styles = json.styles
+
+        return `[V4+ Styles]
+Format: ${v4Styles.format.join(', ')}
+${v4Styles.style.map(s => `Style: ${s.join(',')}`).join('\n')}
+
 `
     }
 }
