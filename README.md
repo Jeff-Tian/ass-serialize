@@ -3,6 +3,23 @@ ASS-Serialize
 
 Serialize json to ass format
 
+# install
+```bash
+npm install --save ass-serialize
+```
+or 
+```bash
+yarn add ass-serialize
+```
+
+# usage
+```ecmascript 6
+import AssSerialize from 'ass-serialize'
+
+let ass = AssSerialize.serialize(json)
+```
+
+
 # test
 ```
 npm test
