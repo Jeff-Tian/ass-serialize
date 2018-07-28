@@ -29,6 +29,15 @@ Thanks to [this article](http://jamesknelson.com/testing-in-es6-with-mocha-and-b
 configure the
  test environment
 
+
+# publish to npm registry
+Thanks to [this answer](https://stackoverflow.com/a/29738448/769900) to help me publish a `ES 6` package. 
+```
+npm run prepublish
+npm publish
+```
+
+
 # Credits
 Thanks to [this link](https://daringfireball.net/projects/markdown/syntax) to
  helped me how to write `markdown`

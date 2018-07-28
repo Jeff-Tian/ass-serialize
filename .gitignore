@@ -62,3 +62,6 @@ typings/
 
 # jetbrain editor auto generated file
 .idea
+
+# npm build folder
+lib

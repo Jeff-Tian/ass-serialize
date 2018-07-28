@@ -1,15 +1,18 @@
 {
   "name": "ass-serialize",
-  "version": "1.0.2",
+  "version": "1.1.2",
   "description": "",
-  "main": "index.js",
+  "main": "lib/index.js",
   "scripts": {
+    "build": "babel -s inline -d lib ./index.js",
+    "prepublish": "npm test && npm run build",
     "test": "node_modules\\.bin\\mocha --compilers js:babel-core/register \"test/**/*.test.js\""
   },
   "author": "Jeff Tian <Jeff.Tian@outlook.com>",
   "homepage": "https://github.com/Jeff-Tian/ass-serialize",
   "license": "ISC",
   "devDependencies": {
+    "babel-cli": "^6.26.0",
     "babel-core": "^6.26.3",
     "babel-preset-es2015": "^6.24.1",
     "babel-preset-stage-0": "^6.24.1",
