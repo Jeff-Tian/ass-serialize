@@ -24,8 +24,8 @@ let ass = AssSerialize.serialize(json)
 ```
 npm test
 ```
-Thanks to [this article](http://jamesknelson
-.com/testing-in-es6-with-mocha-and-babel-6/ "testing") to guide me how to 
+
+Thanks to [this article](http://jamesknelson.com/testing-in-es6-with-mocha-and-babel-6/ "testing") to guide me how to 
 configure the
  test environment
 
