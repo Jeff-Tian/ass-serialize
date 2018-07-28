@@ -1,12 +1,13 @@
 {
   "name": "ass-serialize",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "node_modules\\.bin\\mocha --compilers js:babel-core/register \"test/**/*.test.js\""
   },
-  "author": "",
+  "author": "Jeff Tian <Jeff.Tian@outlook.com>",
+  "homepage": "https://github.com/Jeff-Tian/ass-serialize",
   "license": "ISC",
   "devDependencies": {
     "babel-core": "^6.26.3",
