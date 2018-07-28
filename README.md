@@ -13,8 +13,16 @@ yarn add ass-serialize
 ```
 
 # usage
+ECMAScript 6 usage:
 ```ecmascript 6
 import AssSerialize from 'ass-serialize'
+
+let ass = AssSerialize.serialize(json)
+```
+
+ECMAScript 5 usage:
+```javascript 1.8
+var AssSerialize = require('ass-serialize').default
 
 let ass = AssSerialize.serialize(json)
 ```

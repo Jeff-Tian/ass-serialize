@@ -1,8 +1,8 @@
 {
   "name": "ass-serialize",
-  "version": "1.1.2",
-  "description": "",
-  "main": "lib/index.js",
+  "version": "1.1.3",
+  "description": "Serialize Json representation subtitle to ASS format",
+  "main": "ass-serialize.js",
   "scripts": {
     "build": "babel -s inline -d lib ./index.js",
     "prepublish": "npm test && npm run build",

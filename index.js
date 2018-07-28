@@ -4,7 +4,7 @@ function serializeKeyValue(json, key) {
     return `${key}: ${json[key]}`
 }
 
-export default class AssSerializer {
+export class AssSerializer {
     static serialize(json) {
         return AssSerializer.serializeHeaderInfo(json) + AssSerializer.serializeV4Styles(json) + AssSerializer.serializeEvents(json)
     }
@@ -65,3 +65,6 @@ ${events.dialogue ? events.dialogue.map(d => AssSerializer.serializeDialogue(d))
         return `Comment: ${AssSerializer.serializeDialogueItem(d)}`
     }
 }
+
+
+export default AssSerializer
